@@ -253,7 +253,7 @@ The Mythical Mysfits adoption agency infrastructure has always been running dire
     <summary>HINT: Final Dockerfile</summary>
     <pre>
       FROM python:3
-      COPY ./service/requirements/txt /
+      COPY ./service/requirements.txt /
       RUN pip install -r ./requirements.txt
       COPY ./service /MythicalMysfitsService
       WORKDIR /MythicalMysfitsService
